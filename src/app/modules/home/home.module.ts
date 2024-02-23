@@ -5,6 +5,7 @@ import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './container/home.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { HeroesService } from '../services/heroes.service';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeroesService } from '../services/heroes.service';
     CommonModule,
     HomeRoutingModule,
     MaterialModule,
-    SharedModule
+    SharedModule,
+    RouterModule
   ],
   providers: [HeroesService]
 })

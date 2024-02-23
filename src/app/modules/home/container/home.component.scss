@@ -1,6 +1,38 @@
-.ha-home__spinner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80%;
+.ha-home {
+  &__no-coincidence {
+    align-items: center;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+  }
+
+  &__spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: gainsboro;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    box-shadow: 0 3px 5px -1px #0003;
+
+    &--input {
+      flex: 80%;
+    }
+
+    &--button {
+      flex: 20%;
+      margin-right: 50px;
+    }
+  }
 }

@@ -14,7 +14,8 @@ import { HaFormComponent } from "./ha-form/ha-form.component";
     ReactiveFormsModule,
     RouterModule
   ],
-  exports: [SharedCardComponent, HaFormComponent]
+  exports: [SharedCardComponent, HaFormComponent],
+
 })
 
-export class SharedModule {}
+export class SharedModule { }
